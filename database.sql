@@ -1,2 +1,4 @@
 DROP DATABASE  IF EXISTS desi ;
 CREATE DATABASE desi;
+USE desi;
+CREATE TABLE potrebiteli(id INT,name VARCHAR(255),mail VARCHAR(255),pass VARCHAR(255));
